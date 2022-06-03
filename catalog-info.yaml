@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: market-data
+  description: |
+    Market Data is a connector which scrapes trading data from a variety of crypto exchanges, translates it into FIX, and delivers a unified FIX feed to ICE
+  links:
+    - title: Website
+      url: https://gl.blockstream.io/market-data
+    - title: Documentation
+      url: https://gl.blockstream.io/market-data/documentation
+    - title: Storybook
+      url: https://gl.blockstream.io/market-data
+    - title: Discord Chat
+      url: https://gl.blockstream.io/market-data
+  annotations:
+    github.com/project-slug: market-data/market-data
+    backstage.io/techdocs-ref: dir:.
+    lighthouse.com/website-url: https://backstage.io
+spec:
+  type: library
+  owner: market-data-team
+  lifecycle: experimental
